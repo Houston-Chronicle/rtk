@@ -1,0 +1,67 @@
+/*
+this is the main css file for rtknet
+it alters the one at fedspending: http://www.fedspending.org/styles.css
+
+rtknet colors *************
+736f2d=dark acid green
+999933=acid green
+0a3616=dark green
+377548=not-so-dark (kelly) green
+819f46=right sidebar green dark
+d5dec3=right sidebar green light
+
+fedspending colors ******** 
+83B570=bright green
+329797=teal
+1FA580=green
+
+
+*/
+
+body.help {
+  margin: 20px;
+}
+
+#fpds_table { 
+  width: 100%;
+}
+
+#boxchart #fpds_table { 
+  width: 100%;  
+}
+
+h1 { color:#377548; }
+h2 { color:#377548; }
+h3 { color:#377548; }
+a { color:#819f46; }
+a:hover { color:#0a3616; }
+
+#searchused { 
+  width: 380px; 
+  margin-left: 14px; }
+
+
+#searchused table {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  }
+#searchused table { background-color: #fafafa; }
+#searchused table .toprow { background-color: #f0f2f1; color: #666; }
+#searchused th.toprow a, #searchused td.toprow a { color: #819f46; }
+
+.input, select, #formdiv input { border: 1px solid #8DAD66; }
+
+.button {
+  background-color: #006633; 
+  color: #FFFFFF;
+  border: none;
+  padding: 1px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-size: 1.2em;
+ }
+#searchused .button {
+  margin:0;
+  font-size: 1em;
+}
